@@ -1,0 +1,33 @@
+.game-table {
+  width: 300px;
+  height: 300px;
+}
+
+.game-table .row {
+  display: flex;
+  background-color: beige;
+  height: 100px;
+  width: 300px;
+  margin: 2px;
+}
+
+.game-table .row .box {
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winner {
+  color: blueviolet;
+}
+
+.game-table .row .box.winning-box {
+  border: 1px solid darkorange;
+  background-color: brown;
+}
